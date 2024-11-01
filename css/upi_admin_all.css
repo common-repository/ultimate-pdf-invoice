@@ -1,0 +1,11 @@
+.upi_download_invoice_link
+ {
+    background-image: url(../images/upi_invoice.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    text-indent: -9999px;
+    position: relative;
+    padding: 0 !important;
+    height: 26px !important;
+    width: 26px;
+}

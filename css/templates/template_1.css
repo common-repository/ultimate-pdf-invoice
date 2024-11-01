@@ -1,0 +1,415 @@
+.upi_template_editor_wrapper
+{
+	float:left;
+	width:100%;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding:40px;
+	position:relative;
+}
+.upi_template_logo_wrapper
+{
+	float:left;
+	width:100%;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	position:relative;
+	border:1px solid #ffffff;
+}
+.upi_template_logo_settings
+{
+	float:left;
+	width:100%;
+	cursor:pointer;
+	padding:20px 0;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	text-align:center;
+}
+.upi_company_logo
+{
+	width:auto;
+	height:auto;
+	max-width:100%;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	
+}
+
+.upi_company_address_wrapper
+{
+	float:left;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width:100%;
+	border-bottom:2px solid #dfdfdf;
+}
+.upi_company_address_outer
+{
+	float: left;
+    width: 100%;
+	position:relative;
+	border:1px solid #ffffff;
+}
+.upi_company_address
+{
+	float:left;
+	width:100%;
+	line-height:30px;
+	padding:20px 0;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	cursor:pointer;
+	font-size:16px;
+	text-align:center;
+}
+.upi_template_sections
+{
+	float:left;
+	width:100%;
+	margin:0 0 20px 0;
+}
+.upi_invoice_header
+{
+	float:left;
+	width:100%;
+	border-bottom:2px solid #dfdfdf;
+	font-weight:bold;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	font-size:20px;
+	padding:0 0 10px 0;
+}
+.upi_order_details
+{
+	float:left;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border-bottom:1px solid #dfdfdf;
+}
+.upi_logo_settings
+{
+	height: 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+	display:none;
+}
+.upi_template_section_settings:hover .upi_logo_settings,.upi_template_section_settings.upi_settings_selected .upi_logo_settings
+{
+	display:block;
+}
+.upi_template_section_settings:hover .upi_section_setting_wrapper,.upi_template_section_settings.upi_settings_selected .upi_section_setting_wrapper 
+{
+	display:block;
+}
+.upi_template_section_settings.upi_settings_selected,.upi_template_section_settings:hover 
+{
+	border:2px dashed #000000 !important;
+}
+.upi_template_section_settings
+{
+	border:2px solid #ffffff !important;
+	cursor:pointer;
+	position:relative;
+}
+.upi_settings_btn_icon {
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+	padding:0 0 0 5px;
+}
+.upi_invoice_title_wrapper
+{
+	float:left;
+	width:100%;
+	text-align:center;
+	font-size:16px;
+	height:40px;
+	line-height:40px;
+}
+.upi_template_invoice_from_wrapper
+{
+	float:left;
+	width:40%;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	position:relative;
+	border:1px solid #ffffff;
+}
+.upi_order_details_wrppar
+{
+	background: #dbfdfd;
+    box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+    float: right;
+    font-size: 16px;
+    width: 50%;
+	position:relative;
+	border:1px solid #ffffff;
+	cursor:pointer;
+	min-width:400px;
+}
+.upi_order_data_header
+{
+	border-bottom: 1px solid #dfdfdf;
+    box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+    float: left;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    text-align: center;
+    width: 100%;
+}
+.upi_order_data
+{
+	float:left;
+	width:50%;
+	height:40px;
+	line-height:40px;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.upi_order_sample_data
+{
+	float:left;
+	width:50%;
+	text-align:right;
+	height:40px;
+	line-height:40px;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.upi_order_data_wrapper
+{
+	border-bottom: 1px solid #dfdfdf;
+    box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+    float: left;
+    padding: 2px 10px;
+    width: 100%;
+}
+.upi_product_list_wrapper
+{
+	float:left;
+	width:100%;
+	position:relative;
+	border-bottom:1px solid #ffffff;
+	cursor:pointer;
+}
+.upi_product_list
+{
+	float:left;
+	width:100%;
+	background: #aad5d1;
+}
+.upi_product_list_header
+{
+	font-weight:bold;
+	height:50px;
+	border-bottom:1px solid #dfdfdf;
+	font-size:18px;
+	background:#00FFCC;
+}
+.upi_product_list_data
+{
+	height:40px;
+	text-align:center;
+	border-bottom:1px solid #dfdfdf;
+}
+.upi_product_list_section
+{
+	/*margin:50px 0 0 0;*/
+}
+.upi_section_setting_wrapper
+{
+	width:350px;
+	height:auto;
+	border:1px solid #666666;
+	position:absolute;
+	top:100%;
+	background:#a9cedc;
+	z-index:9;
+	display:none;
+	left:0;
+	padding:0px;
+	font-size:13px;
+}
+.upi_setting_location_top.upi_section_setting_wrapper
+{
+	top:auto;
+	bottom:100%;
+}
+.upi_logo_settings.upi_setting_location_top
+{
+	top:0;
+}
+.upi_section_setting_title
+{
+	float:left;
+	width:40%;
+	height:40px;
+	line-height:40px;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.upi_section_setting_element_wrapper
+{
+	float:left;
+	width:60%;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	height:auto;
+}
+.upi_section_setting
+{
+	border-bottom:1px solid #dfdfdf;
+	float:left;
+	width:100%;
+	padding:5px 10px;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.upi_setting_file
+{
+	float:left;
+	width:100%;
+	height:35px;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding:0 !important;
+	margin:0 !important;
+	border:1px solid #666666;
+}
+.upi_setting_checkbox
+{
+	float:left;
+	margin:13px 0 0 0 !important;
+}
+.upi_setting_input_element
+{
+	float:left;
+	width:100%;
+	height:35px;
+	border:1px solid #666 !important;
+}
+.upi_setting_textarea_element
+{
+	float:left;
+	width:100%;
+	height:100px;
+	border:1px solid #666 !important;
+}
+.upi_template_editor
+{
+	float:left;
+	width:100%;
+}
+.upi_footer_section_wrapper
+{
+	float:left;
+	width:100%;
+	margin:50px 0 0 0;
+}
+.upi_footer_upper_content_wrapper
+{
+	float:left;
+	width:100%;
+	height:30px;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	
+}
+.upi_footer_lower_content_wrapper
+{
+	float:left;
+	width:100%;
+	margin:10px 0 0 0;
+}
+.upi_footer_upper_content
+{
+	float:left;
+	width:100%;
+	border-bottom:2px solid #dfdfdf;
+	height:30px;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding:5px;
+}
+.upi_footer_lower_content
+{
+	float:left;
+	width:100%;
+	min-height:30px;
+	box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding:5px;
+}
+.upi_select_element
+{
+	float:left;
+	width:100%;
+	height:40px;	
+}
+.upi_from_address
+{
+	float:left;
+	width:auto;
+	text-align:left;
+}
+.upi_to_address
+{
+	float:left;
+	width:auto;
+	text-align:left;
+}

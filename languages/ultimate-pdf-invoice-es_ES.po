@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate PDF Invoice v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-01-28 08:03:00+0000\n"
+"Last-Translator: admin <support@vjinfotech.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: core/classes/upi_invoice.class.php:88
+#: core/classes/upi_invoice.class.php:337
+#: core/classes/upi_invoice.class.php:723
+#@ ultimate-pdf-invoice
+msgid "Changes Saved Successfully."
+msgstr "Los cambios se guardaron exitosamente."
+
+#: core/classes/upi_invoice.class.php:94
+#@ ultimate-pdf-invoice
+msgid "File Not Uploaded. Please check file size for exceeds the limit."
+msgstr "Archivo no Subida. Por favor, compruebe el tamaño de archivo para excede el límite."
+
+#: core/classes/upi_invoice.class.php:787
+#: core/classes/upi_pdf_invoice.class.php:254
+#: core/classes/upi_pdf_invoice.class.php:256
+#@ ultimate-pdf-invoice
+msgid "Ultimate PDF Invoice"
+msgstr "Último PDF Factura"
+
+#: core/classes/upi_invoice.class.php:798
+#: core/classes/upi_invoice.class.php:810
+#: core/classes/upi_invoice.class.php:832
+#: core/views/upi_template_download_pdf.php:20
+#@ ultimate-pdf-invoice
+msgid "Download Invoice"
+msgstr "Descargar factura"
+
+#: core/classes/upi_invoice.class.php:798
+#@ ultimate-pdf-invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#: core/classes/upi_pdf_invoice.class.php:254
+#@ ultimate-pdf-invoice
+msgid "Ultimate Invoice"
+msgstr "último factura"
+
+#: core/classes/upi_pdf_invoice.class.php:256
+#@ ultimate-pdf-invoice
+msgid "Templates"
+msgstr "Plantillas"
+
+#: core/classes/upi_pdf_invoice.class.php:258
+#: core/views/upi_settings.php:21
+#@ ultimate-pdf-invoice
+msgid "Settings"
+msgstr "Ajustes"
+
+#: core/classes/upi_pdf_invoice.class.php:260
+#@ ultimate-pdf-invoice
+msgid "Download Pdf"
+msgstr "Descargar PDF"
+
+#: core/classes/upi_pdf_invoice.class.php:294
+#@ ultimate-pdf-invoice
+msgid "manage woocommerce Ultimate PDF Invoice."
+msgstr "gestionar WooCommerce último PDF Factura."
+
+#: core/classes/upi_pdf_invoice.class.php:296
+#@ ultimate-pdf-invoice
+msgid "manage woocommerce Ultimate PDF Invoice settings."
+msgstr "gestionar WooCommerce ajustes de último PDF factura."
+
+#: core/classes/upi_pdf_invoice.class.php:298
+#@ ultimate-pdf-invoice
+msgid "Download pdf invoice."
+msgstr "Descargar pdf factura."
+
+#: core/templates/template_1.php:21
+#: core/templates/template_1.php:61
+#: core/templates/template_1.php:116
+#: core/templates/template_2.php:21
+#: core/templates/template_2.php:110
+#: core/templates/template_2.php:163
+#@ ultimate-pdf-invoice
+msgid "Position"
+msgstr "Posición"
+
+#: core/templates/template_1.php:24
+#: core/templates/template_1.php:73
+#: core/templates/template_1.php:128
+#: core/templates/template_1.php:327
+#: core/templates/template_1.php:368
+#: core/templates/template_2.php:24
+#: core/templates/template_2.php:122
+#: core/templates/template_2.php:175
+#: core/templates/template_2.php:372
+#: core/templates/template_2.php:413
+#@ ultimate-pdf-invoice
+msgid "Center"
+msgstr "Centrar"
+
+#: core/templates/template_1.php:25
+#: core/templates/template_1.php:64
+#: core/templates/template_1.php:74
+#: core/templates/template_1.php:119
+#: core/templates/template_1.php:129
+#: core/templates/template_1.php:328
+#: core/templates/template_1.php:369
+#: core/templates/template_2.php:25
+#: core/templates/template_2.php:113
+#: core/templates/template_2.php:123
+#: core/templates/template_2.php:166
+#: core/templates/template_2.php:176
+#: core/templates/template_2.php:373
+#: core/templates/template_2.php:414
+#@ ultimate-pdf-invoice
+msgid "Left"
+msgstr "Izquierda"
+
+#: core/templates/template_1.php:26
+#: core/templates/template_1.php:65
+#: core/templates/template_1.php:75
+#: core/templates/template_1.php:120
+#: core/templates/template_1.php:130
+#: core/templates/template_1.php:329
+#: core/templates/template_1.php:370
+#: core/templates/template_2.php:26
+#: core/templates/template_2.php:114
+#: core/templates/template_2.php:124
+#: core/templates/template_2.php:167
+#: core/templates/template_2.php:177
+#: core/templates/template_2.php:374
+#: core/templates/template_2.php:415
+#@ ultimate-pdf-invoice
+msgid "Right"
+msgstr "Derecha"
+
+#: core/templates/template_1.php:31
+#: core/templates/template_2.php:31
+#@ ultimate-pdf-invoice
+msgid "Choose Image"
+msgstr "Seleccione Imagen"
+
+#: core/templates/template_1.php:38
+#: core/templates/template_1.php:93
+#: core/templates/template_1.php:148
+#: core/templates/template_1.php:197
+#: core/templates/template_1.php:303
+#: core/templates/template_1.php:347
+#: core/templates/template_1.php:388
+#: core/templates/template_2.php:38
+#: core/templates/template_2.php:87
+#: core/templates/template_2.php:142
+#: core/templates/template_2.php:195
+#: core/templates/template_2.php:300
+#: core/templates/template_2.php:348
+#: core/templates/template_2.php:392
+#: core/templates/template_2.php:433
+#@ ultimate-pdf-invoice
+msgid "Hide Section"
+msgstr "Sección oculta"
+
+#: core/templates/template_1.php:55
+#: core/templates/template_2.php:104
+#@ ultimate-pdf-invoice
+msgid "From Address"
+msgstr "De Dirección"
+
+#: core/templates/template_1.php:70
+#: core/templates/template_1.php:125
+#: core/templates/template_1.php:324
+#: core/templates/template_1.php:365
+#: core/templates/template_2.php:119
+#: core/templates/template_2.php:172
+#: core/templates/template_2.php:369
+#: core/templates/template_2.php:410
+#@ ultimate-pdf-invoice
+msgid "Text Align"
+msgstr "Texto Alinear"
+
+#: core/templates/template_1.php:80
+#: core/templates/template_1.php:135
+#: core/templates/template_1.php:178
+#: core/templates/template_1.php:334
+#: core/templates/template_1.php:375
+#: core/templates/template_2.php:62
+#: core/templates/template_2.php:129
+#: core/templates/template_2.php:182
+#: core/templates/template_2.php:323
+#: core/templates/template_2.php:379
+#: core/templates/template_2.php:420
+#@ ultimate-pdf-invoice
+msgid "Font size"
+msgstr "Tamaño de fuente"
+
+#: core/templates/template_1.php:172
+#: core/templates/template_2.php:56
+#: core/templates/template_2.php:317
+#@ ultimate-pdf-invoice
+msgid "Title"
+msgstr "Título"
+
+#: core/templates/template_1.php:191
+#: core/templates/template_2.php:75
+#: core/templates/template_2.php:81
+#: core/templates/template_2.php:336
+#: core/templates/template_2.php:342
+#@ ultimate-pdf-invoice
+msgid "Background"
+msgstr "Fondo"
+
+#: core/templates/template_1.php:265
+#: core/templates/template_2.php:262
+#@ ultimate-pdf-invoice
+msgid "Header Font size"
+msgstr "Tamaño Cabecera de fuente"
+
+#: core/templates/template_1.php:278
+#: core/templates/template_2.php:275
+#@ ultimate-pdf-invoice
+msgid "Body Font size"
+msgstr "El tamaño del cuerpo de fuente"
+
+#: core/templates/template_1.php:318
+#: core/templates/template_1.php:359
+#: core/templates/template_2.php:363
+#: core/templates/template_2.php:404
+#@ ultimate-pdf-invoice
+msgid "Content"
+msgstr "Contenido"
+
+#: core/views/upi_settings.php:29
+#@ ultimate-pdf-invoice
+msgid "Template"
+msgstr "Plantilla"
+
+#: core/views/upi_settings.php:33
+#@ ultimate-pdf-invoice
+msgid "Activate Template"
+msgstr "Active Template"
+
+#: core/views/upi_settings.php:52
+#@ ultimate-pdf-invoice
+msgid "Disable"
+msgstr "Inhabilitar"
+
+#: core/views/upi_settings.php:56
+#@ ultimate-pdf-invoice
+msgid "Email Attachment"
+msgstr "Adjunto de correo electrónico"
+
+#: core/views/upi_settings.php:59
+#@ ultimate-pdf-invoice
+msgid "Attach with Email"
+msgstr "Conecte con el correo electrónico"
+
+#: core/views/upi_settings.php:60
+#@ ultimate-pdf-invoice
+msgid "Do not Attach with Email"
+msgstr "No Adjuntar con el correo electrónico"
+
+#: core/views/upi_settings.php:82
+#@ ultimate-pdf-invoice
+msgid "Attachment"
+msgstr "Adjunto archivo"
+
+#: core/views/upi_settings.php:86
+#@ ultimate-pdf-invoice
+msgid "Attach Invoice"
+msgstr "Adjuntar factura"
+
+#: core/views/upi_settings.php:89
+#@ ultimate-pdf-invoice
+msgid "For new order"
+msgstr "Para nuevo orden"
+
+#: core/views/upi_settings.php:90
+#@ ultimate-pdf-invoice
+msgid "For processing order"
+msgstr "Por orden de procesamiento"
+
+#: core/views/upi_settings.php:91
+#@ ultimate-pdf-invoice
+msgid "For completed order"
+msgstr "Por pedido completado"
+
+#: core/views/upi_settings.php:106
+#@ ultimate-pdf-invoice
+msgid "Saving Settings"
+msgstr "Guardar los ajustes"
+
+#: core/views/upi_settings.php:110
+#@ ultimate-pdf-invoice
+msgid "Settings Saved"
+msgstr "Ajustes guardados"
+
+#: core/views/upi_settings.php:117
+#: core/views/upi_template_download_pdf.php:60
+#: core/views/upi_template_editor.php:95
+#: core/views/upi_ultimate_invoice.php:35
+#@ ultimate-pdf-invoice
+msgid "Documentation"
+msgstr "Documentación"
+
+#: core/views/upi_settings.php:117
+#: core/views/upi_template_download_pdf.php:60
+#: core/views/upi_template_editor.php:95
+#: core/views/upi_ultimate_invoice.php:35
+#@ ultimate-pdf-invoice
+msgid "Support"
+msgstr "Apoyo"
+
+#: core/views/upi_template_download_pdf.php:29
+#@ ultimate-pdf-invoice
+msgid "Download"
+msgstr "Descargar"
+
+#: core/views/upi_template_download_pdf.php:33
+#@ ultimate-pdf-invoice
+msgid "Select Order"
+msgstr "Seleccione Orden"
+
+#: core/views/upi_template_download_pdf.php:34
+#@ ultimate-pdf-invoice
+msgid "Please select any order ID"
+msgstr "Por favor, seleccione cualquier identificación de la orden"
+
+#: core/views/upi_template_editor.php:55
+#@ ultimate-pdf-invoice
+msgid "Save"
+msgstr "Ahorrar"
+
+#: core/views/upi_template_editor.php:56
+#@ ultimate-pdf-invoice
+msgid "Preview"
+msgstr "Avance"
+
+#: core/views/upi_template_editor.php:57
+#@ ultimate-pdf-invoice
+msgid "Close"
+msgstr "Cerca"
+
+#: core/views/upi_template_editor.php:84
+#@ ultimate-pdf-invoice
+msgid "Saving Template"
+msgstr "Plantilla de Ahorro"
+
+#: core/views/upi_template_editor.php:88
+#@ ultimate-pdf-invoice
+msgid "Template saved"
+msgstr "Plantilla guardada"
+
+#: core/views/upi_ultimate_invoice.php:21
+#@ ultimate-pdf-invoice
+msgid "Please click to select template"
+msgstr "Por favor, haga clic para seleccionar la plantilla"
+
+#: core/templates/template_1.php:291
+#: core/templates/template_2.php:288
+#@ ultimate-pdf-invoice
+msgid "Header Background"
+msgstr "Cabecera del fondo"
+
+#: core/templates/template_1.php:297
+#: core/templates/template_2.php:294
+#@ ultimate-pdf-invoice
+msgid "Body Background"
+msgstr "Antecedentes cuerpo"
+
